@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Imersão Dev Gemini</title>
+</head>
+
+<body>
+    <header>
+        <h1><a href="index.html">Os 100 Animes Mais Assistidos</a></h1>
+    </header>
+    <main>
+        <section class="sidebar">
+            <h2>Gêneros</h2>
+            <ul id="lista-generos">
+                <!-- Lista de gêneros será preenchida aqui -->
+            </ul>
+        </section>
+        <section class="principal">
+            <input type="text" placeholder="Digite o Nome do Anime" id="campo-pesquisa">
+            <button onclick="pesquisar()">Pesquisar</button>
+            <section class="resultados-pesquisa" id="resultados-pesquisa">
+                <!-- Resultados serão adicionados aqui -->
+            </section>
+        </section>
+    </main>
+    <footer>
+        <p>2024 - Animes. Todos direitos reservados a Gustavo Alves.</p>
+    </footer>
+    <!-- Coloque seus scripts no final para garantir que o DOM esteja carregado -->
+    <script src="dados.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
