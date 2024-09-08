@@ -4,7 +4,10 @@
 /* Estiliza o corpo da página */
 body {
     font-family: "Chakra Petch", sans-serif; /* Define a fonte padrão */
-    background-color: #1E1E1E; /* Cor de fundo da página (escura) */
+    background-image: url('fundo.avif'); /* Adiciona a imagem de fundo */
+    background-size: cover; /* Faz a imagem cobrir toda a área do fundo */
+    background-position: center; /* Centraliza a imagem de fundo */
+    background-repeat: no-repeat; /* Impede a repetição da imagem */
     color: #E0E0E0; /* Cor do texto (branco claro) */
     display: flex; /* Usa Flexbox para layout */
     flex-direction: column; /* Alinha os itens na vertical */
